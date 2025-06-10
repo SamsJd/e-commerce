@@ -1,12 +1,21 @@
 import leia = require("readline-sync");
+import { Produto } from "./src/model/Produto";
+import { Eletronicos } from "./src/model/Eletronicos";
+import { Acessorios } from "./src/model/Acessorios";
 
 export function main() {
     
     let opcao: number
 
+    const eletronicos: Eletronicos = new Eletronicos (2, 1, 2, 'Samsung Galaxy S25');
+    eletronicos.visualizar();
+
+    const acessorios: Acessorios = new Acessorios (3, 2, 3, 'Samsung Galaxy S25');
+    acessorios.visualizar();
+
     while(true) {
 
-        console.log('\n***********************************************');
+        console.log('\n\n***********************************************');
         console.log('                                               ');
         console.log('               TECNOLOTUDO  LTDA               ');
         console.log('                                               ');
