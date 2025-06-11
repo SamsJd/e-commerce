@@ -47,9 +47,9 @@ export abstract class Produto {
                 break;
         }
     
-        console.log('\n*****************************************************');
+        console.log('\n***********************************************');
         console.log('Dados do Produto:');
-        console.log('*****************************************************\n');
+        console.log('***********************************************\n');
         console.log('Número do Produto: ' + this._numero);
         console.log('Categoria do Produto: ' + this.categoria);
         console.log('Nome do Produto: ' + this.nomeP); 

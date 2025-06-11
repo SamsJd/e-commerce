@@ -36,9 +36,9 @@ export class Eletronicos extends Produto {
     }
 
     public override visualizar(): void {
-        console.log('\n*****************************************************');
+        console.log('\n***********************************************');
         console.log('Dados do Acessório:');
-        console.log('*****************************************************\n');
+        console.log('***********************************************\n');
         console.log('Número do Produto: ' + this.numero);
         console.log('Categoria do Produto: ' + this.categoria);
         console.log('Tipo do Eletrônico: ' + this.modelo1());
